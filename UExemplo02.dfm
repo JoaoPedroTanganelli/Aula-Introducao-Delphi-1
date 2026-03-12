@@ -2,6 +2,7 @@ object frmExemplo02: TfrmExemplo02
   Left = 0
   Top = 0
   Caption = 'Exemplo 2'
+<<<<<<< Updated upstream
   ClientHeight = 78
   ClientWidth = 322
   Color = clBtnFace
@@ -46,5 +47,51 @@ object frmExemplo02: TfrmExemplo02
     Caption = '='
     TabOrder = 2
     OnClick = btn_resultadoClick
+=======
+  ClientHeight = 151
+  ClientWidth = 775
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -32
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 45
+  object lbl_sinal: TLabel
+    Left = 211
+    Top = 51
+    Width = 22
+    Height = 45
+    Caption = '+'
+  end
+  object lbl_resultado: TLabel
+    Left = 552
+    Top = 51
+    Width = 57
+    Height = 45
+  end
+  object edt_vlr_1: TEdit
+    Left = 72
+    Top = 48
+    Width = 121
+    Height = 53
+    TabOrder = 0
+  end
+  object edt_vlr_2: TEdit
+    Left = 256
+    Top = 48
+    Width = 121
+    Height = 53
+    TabOrder = 1
+  end
+  object btl_resultado: TButton
+    Left = 400
+    Top = 54
+    Width = 130
+    Height = 41
+    Caption = '='
+    TabOrder = 2
+    OnClick = btl_resultadoClick
+>>>>>>> Stashed changes
   end
 end

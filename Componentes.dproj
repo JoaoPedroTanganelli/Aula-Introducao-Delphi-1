@@ -142,10 +142,13 @@
             <Form>frmExemplo02</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+<<<<<<< Updated upstream
         <DCCReference Include="UAtividade02.pas">
             <Form>frmAtividade02</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+=======
+>>>>>>> Stashed changes
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
