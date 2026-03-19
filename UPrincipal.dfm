@@ -32,20 +32,13 @@ object frmPrincipal: TfrmPrincipal
   end
   object btnExemplo02: TButton
     Left = 24
-<<<<<<< Updated upstream
     Top = 80
     Width = 150
     Height = 41
-=======
-    Top = 88
-    Width = 150
-    Height = 33
->>>>>>> Stashed changes
     Caption = 'Exemplo 2'
     TabOrder = 2
     OnClick = btnExemplo02Click
   end
-<<<<<<< Updated upstream
   object btnAtividade02: TButton
     Left = 256
     Top = 80
@@ -55,6 +48,13 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 3
     OnClick = btnAtividade02Click
   end
-=======
->>>>>>> Stashed changes
+  object btnAtividade26: TButton
+    Left = 256
+    Top = 136
+    Width = 150
+    Height = 41
+    Caption = 'Atividade 26'
+    TabOrder = 4
+    OnClick = btnAtividade26Click
+  end
 end
