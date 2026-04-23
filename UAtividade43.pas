@@ -29,6 +29,8 @@ implementation
 
 {$R *.dfm}
 
+uses UPrincipal;
+
 procedure TfrmAtividade43.btncalcularClick(Sender: TObject);
 var
   nome: string;

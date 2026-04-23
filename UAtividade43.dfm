@@ -14,7 +14,7 @@ object frmAtividade43: TfrmAtividade43
   object lblNome: TLabel
     Left = 40
     Top = 24
-    Width = 89
+    Width = 76
     Height = 38
     Caption = 'Nome'
     Font.Charset = DEFAULT_CHARSET
