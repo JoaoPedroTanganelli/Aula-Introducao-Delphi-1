@@ -7,7 +7,7 @@ uses
   Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TFrame1 = class(TFrame)
+  TfrmAtividade27 = class(TForm)
     lblnome: TLabel;
     edtnome: TEdit;
     btncalcular: TButton;

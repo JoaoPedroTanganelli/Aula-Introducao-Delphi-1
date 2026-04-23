@@ -30,22 +30,13 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 1
     OnClick = btnAtividade01Click
   end
-  object btnExemplo02: TButton
-    Left = 24
-    Top = 80
-    Width = 150
-    Height = 41
-    Caption = 'Exemplo 2'
-    TabOrder = 2
-    OnClick = btnExemplo02Click
-  end
   object btnAtividade02: TButton
     Left = 256
     Top = 80
     Width = 150
     Height = 41
     Caption = 'Atividade 2'
-    TabOrder = 3
+    TabOrder = 2
     OnClick = btnAtividade02Click
   end
   object btnAtividade26: TButton
@@ -54,22 +45,15 @@ object frmPrincipal: TfrmPrincipal
     Width = 150
     Height = 41
     Caption = 'Atividade 26'
-    TabOrder = 4
+    TabOrder = 3
     OnClick = btnAtividade26Click
   end
-  object btnAtividade27: TButton
+  object btnAtividade43: TButton
     Left = 256
-    Top = 192
+    Top = 199
     Width = 145
     Height = 41
-    Caption = 'Atividade27'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -24
-    Font.Name = 'Segoe UI'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 5
-    OnClick = btnAtividade27Click
+    Caption = 'Atividade 43'
+    TabOrder = 4
   end
 end

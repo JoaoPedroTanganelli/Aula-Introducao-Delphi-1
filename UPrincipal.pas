@@ -10,16 +10,14 @@ type
   TfrmPrincipal = class(TForm)
     btnExemplo01: TButton;
     btnAtividade01: TButton;
-    btnExemplo02: TButton;
     btnAtividade02: TButton;
     btnAtividade26: TButton;
-    btnAtividade27: TButton;
+    btnAtividade43: TButton;
     procedure btnExemplo01Click(Sender: TObject);
     procedure btnAtividade01Click(Sender: TObject);
-    procedure btnExemplo02Click(Sender: TObject);
     procedure btnAtividade02Click(Sender: TObject);
     procedure btnAtividade26Click(Sender: TObject);
-    procedure btnAtividade27Click(Sender: TObject);
+
   private
     { Private declarations }
   public
@@ -33,7 +31,7 @@ implementation
 
 {$R *.dfm}
 
-uses UExemplo01, UAtividade01, UExemplo02, UAtividade02, UAtividade26; UAtividadee27;
+uses UExemplo01, UAtividade01, UAtividade02, UAtividade26, Unit1, UAtividadee27;
 
 
 
@@ -52,19 +50,11 @@ begin
   frmAtividade26.ShowModal;
 end;
 
-procedure TfrmPrincipal.btnAtividade27Click(Sender: TObject);
-begin
-   frmAtividadee27.Showmodal;
-end;
+
 
 procedure TfrmPrincipal.btnExemplo01Click(Sender: TObject);
 begin
   frmExemplo01.ShowModal;
-end;
-
-procedure TfrmPrincipal.btnExemplo02Click(Sender: TObject);
-begin
-  frmExemplo02.ShowModal;
 end;
 
 end.

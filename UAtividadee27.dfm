@@ -7,8 +7,8 @@ object Frame1: TFrame1
   object lblnome: TLabel
     Left = 24
     Top = 32
-    Width = 81
-    Height = 33
+    Width = 76
+    Height = 38
     Caption = 'Nome'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
