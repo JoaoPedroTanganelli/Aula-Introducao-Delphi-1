@@ -4,11 +4,12 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
   TFrmAtivivdade46 = class(TForm)
-    procedure FormCreate(Sender: TObject);
+    btnIniciar: TButton;
+    procedure btnIniciarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -22,7 +23,7 @@ implementation
 
 {$R *.dfm}
 
-procedure TFrmAtivivdade46.FormCreate(Sender: TObject);
+procedure TFrmAtivivdade46.btnIniciarClick(Sender: TObject);
 var
   senha, senhaCorreta: string;
   tentativas: Integer;
@@ -44,13 +45,13 @@ begin
       begin
         ShowMessage('Limite de tentativas excedido!');
         Close;
+        Exit;
       end;
     end;
 
   until senha = senhaCorreta;
 
-  if tentativas < 3 then
-    ShowMessage('Senha correta! Acesso liberado.');
+  ShowMessage('Senha correta! Acesso liberado.');
 end;
 
 end.
