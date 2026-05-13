@@ -147,9 +147,28 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UAtividade47.pas">
-            <Form>Frame1</Form>
+            <Form>frmAtividade47</Form>
             <FormType>dfm</FormType>
-            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="UAtividade48.pas">
+            <Form>frmAtividade48</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UAtividade49.pas">
+            <Form>frmAtividade49</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UAtividade50.pas">
+            <Form>frmAtividade50</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UAtividade51.pas">
+            <Form>frmAtividade51</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="UAtividade52.pas">
+            <Form>frmAtividade52</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
